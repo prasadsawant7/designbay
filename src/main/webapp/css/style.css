@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Smooch&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+img.slider {
+    width: 1440px; 
+    height: 755px;
+}
+
+span#assurity-block {
+    height: 140px;
+    background-color: #F2F5FF;
+}
+
+#free-delivery, #support, #authentic {
+    height: 60px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+#assurity-block .d-flex {
+    padding-top: 15px;
+}
+
+#free-delivery .fas {
+    color: #111111;
+    margin-top: 7.5px;
+}
+
+#support .fas {
+    color: #111111;
+    margin-top: 7.5px;
+}
+
+#authentic .bx {
+    color: #111111;
+    font-size: 3.7em;
+    margin-left: -20px;
+}
+
+#free-delivery, #support, #authentic .header {
+    color: #111111;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+}
+
+div #site, p #mail {
+    color: white;
+}
+
+.card .icn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.cd:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+.cd .cit {
+    width: 270px; 
+    height: 180px;
+}
+
+
+.plus-minus-input {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+  
+.plus-minus-input .input-group-field {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+}
+  
+.plus-minus-input .input-group-field::-webkit-inner-spin-button,
+.plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+  
+.plus-minus-input .input-group-button .circle {
+    border-radius: 50%;
+    padding: 0.25em 0.8em;
+}  
+
+/* .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Smooch', cursive;
+    font-size: 40px;
+} */
